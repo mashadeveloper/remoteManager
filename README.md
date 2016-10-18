@@ -1,7 +1,7 @@
 # remoteManager
 to run server:
-cd source
-make
+cd source &&
+make &&
 ./network
 
 to run client script:
