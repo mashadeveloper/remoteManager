@@ -12,4 +12,4 @@ to run client script:
 
 ./client
 
-Qt 5.7 required to build and run server.
+Qt 5.7.0 required to build and run server.
