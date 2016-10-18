@@ -1,0 +1,15 @@
+#!/bin/bash
+echo 'Type some command'
+Command=''
+until [ "$Command" = "exit" ]
+do
+read Command
+#echo ${Command% *}
+#echo ${Command#* }
+#echo $Command
+if [ "$Command" != "exit" ]
+then
+curl -d "{\"command\":\"${Command% *}\",\"argument\":\"${Command#* }\"}" http://127.0.0.1:33333
+fi
+done
+echo 'Exit from script'
