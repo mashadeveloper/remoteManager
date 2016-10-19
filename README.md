@@ -6,3 +6,5 @@ make &&
 
 to run client script:
 ./client
+
+Qt 5.7 required to build and run server.
