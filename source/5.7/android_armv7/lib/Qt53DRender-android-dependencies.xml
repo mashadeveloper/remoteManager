@@ -1,3 +1,0 @@
-<rules><dependencies><lib name="Qt53DRender"><depends>
-<bundled file="plugins/sceneparsers" />
-</depends></lib></dependencies></rules>
